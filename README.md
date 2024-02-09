@@ -14,7 +14,7 @@
 int main(int argc, char **argv)
 {
   int x = 5;
-  logg(NULL,      "value of x is %d\n",     x);
+  logg(NULL, "value of x is %d\n", x);
 
   x *= 2;
   logg("log.txt", "new value of x is %d\n", x);
